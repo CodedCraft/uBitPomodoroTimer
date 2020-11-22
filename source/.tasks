@@ -5,15 +5,15 @@
 
 # shell command, use quotation for filenames containing spaces
 # check ":AsyncTaskMacro" to see available macros
-command=cd .. && yotta build
+command=cd .. && yotta build && cp "./build/bbc-microbit-classic-gcc/source/microbit-samples-combined.hex" /Volumes/MICROBIT
 
 # working directory, can change to $(VIM_ROOT) for project root
 cwd=$(VIM_FILEDIR)
 
 
-#[file-run]
+[file-restore]
 
-#command=cp ../build/bbc-microbit-classic-gcc/source/ /Volumes/MICROBIT
+command= cd .. && cp ./Releases/Pomodoro0.1.hex /Volumes/MICROBIT
 
 # output mode, can be one of quickfix and terminal
 # - quickfix: output to quickfix window
