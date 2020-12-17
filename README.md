@@ -16,8 +16,7 @@ The [Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique) 
 
 I am a big fan of the pomodoro technique as it has helped me to stay focused on preplanned tasks. However I saw some room for improvement with the implementation of the technique, especially with the timer devices. There are essentially two different types of pomodoro timers: physical and software based pomodoro timers. The former often come in the form of kitchen timers. Physical timers can either be analog, with the user having manually to wind up the timer, or digital with a set of buttons and a screen. Here are two examples of physical timers:  
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Kitchen_timer.jpg" alt="Digital Timer" width="30%" height="390" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Small_kitchen_timer.jpg" alt="Digital Timer" width="57%" height="390" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Kitchen_timer.jpg" alt="Digital Timer" width="33%" height="400" /> <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Small_kitchen_timer.jpg" alt="Digital Timer" width="60%" height="400" />
 
 Software timers can be in the form of an App for your smartphone, a web application in your browser or a dedicated application on your Desktop.
 In the next section I will discuss the advatages and disadvantages of each of these timers.
