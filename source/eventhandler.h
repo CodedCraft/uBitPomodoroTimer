@@ -1,27 +1,25 @@
-#ifndef _EVENTHANDLER_H
-#define _EVENTHANDLER_H
+#ifndef EVENTHANDLER_H_
+#define EVENTHANDLER_H_
 #include "MicroBit.h"
+#include "pomodoro.h"
 
-void eventhandler(MicroBitEvent e)
-{
-    if (e.source == MICROBIT_ID_BUTTON_A)
-    {
-       if (timerMode = 0)
-        {
+extern MicroBit uBit;
+int pomodoroMode = 0;  // 0 Standby, 1 Pomodoro, 2 Short Break, 3 Long Break
+
+// Sets the correct pomodoro mode after button press "A"
+void eventhandler(MicroBitEvent e) {
+    if (e.source == MICROBIT_ID_BUTTON_A) {
+        if (pomodoroMode == 0) {
+            pomodoroMode = 1;
             pomodoro();
-            timerMode = 1: 
+        } else if (pomodoroMode == 1) {
+            pomodoroMode = 0;
+        } else if (pomodoroMode == 2) {
+            pomodoroMode = 1;
+            uBit.display.clear();
+            pomodoro();
         }
-       if (timerMode = 1)
-        {
-            pomodoroBreak();
-            timerMode = 1: 
-        }
-       if (timerMode = 2)
-        {
-            pomodoroBreak();
-            timerMode = 0: 
-        }
-
     }
 }
+
 #endif
