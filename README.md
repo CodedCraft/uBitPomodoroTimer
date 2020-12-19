@@ -24,7 +24,7 @@ In the next section I will discuss the advatages and disadvantages of each of th
 ### Physical Timers vs Software Timers
 
 Physical timers are easier and faster to handle than software based ones, making it more likely that a user will stick with the method. And because they are dedicated, single-purpose devices, they offer no distractions like a smartphone or computer would. Since promoting distranction free work is the main purpose of the method, this is a big advantage. However kitchen timers lack the logic component of software based pomodoro timers. They rely on the user to keep track of the number of pomodoros worked. And the timer duration has to be manually set every time. Next, most people already carry a smartphone with them, so using a physical timer would require bringing an additional device. Lastly, physical timers typically don't have a silent mode, which in some work enivromnets, such as libraries, can be impractical.
-Software based Pomodoro Apps run on a device you already have with you and they keep track of your pomodoros for you. But they lack the simplicity and immediacy of physical timers and offer many distractions.
+Software based Pomodoro Apps run on a device you already have with you and they keep track of your pomodoros for you. But they lack the simplicity and immediacy of physical timers and offer many distractions. Lastly, Pomodoro Apps run on smartphones also drain its battery, because the display has to be on all the time.
 
 ### The birth of the micro:bit Pomodoro-Timer
 
@@ -100,6 +100,13 @@ The table below lists all ideas I had for enhancements. I estimated the difficul
 |Android and iOS companion App                           |Difficult |Low     |open  |
 |Gameification and Challenges (badges, levels, unlocks)  |Difficult |Medium  |open  |
 |Custom PCB with better microprocessor and display       |Difficult |Low     |open  |
+|Built in Habit Tracker                                  |Medium    |Medium  |open  |
+|Add "Pomodoro-Strict Mode" and ability to toggle it     |Medium    |Low     |open  |
+|Add different buzzer sounds for different purposes      |Easy      |High    |open  |
+|Move from buzzer to proper speakers w/ better sounds    |Hard      |Low     |open  |
+|Disruption counter                                      |Easy      |Low     |open  |
+|Task specific pomodoros à la Timeboxing                 |Hard      |High    |open  |
+
 
 
 
